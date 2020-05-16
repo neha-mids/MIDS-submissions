@@ -7,7 +7,7 @@ if not os.path.exists('hw03_faces'):
 
 LOCAL_MQTT_HOST="mosquittocloud"
 LOCAL_MQTT_PORT=1883
-LOCAL_MQTT_TOPIC="testtopic"
+LOCAL_MQTT_TOPIC="imageremote"
 print(LOCAL_MQTT_TOPIC)
 
 def on_connect(client, userdata, flags, rc):

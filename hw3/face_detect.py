@@ -14,7 +14,7 @@ client = mqtt.Client("test")
 client.on_message = on_message
 client.connect(broker_address)
 
-client.subscribe("testtopic")
+client.subscribe("imagelocal")
 # client.publish("testtopic", str(time.time()))
 
 # 1 should correspond to /dev/video1 , your USB camera. The 0 is reserved for the TX2 onboard camera
@@ -33,6 +33,6 @@ while(True):
 	# cut out face from the frame.. 
 	rc,png = cv.imencode('.png', face)
         msg = png.tobytes()
-	client.publish("testtopic", msg, qos = 0, retain = False)
+	client.publish("imagelocal", msg, qos = 0, retain = False)
 
 client.loop_forever()

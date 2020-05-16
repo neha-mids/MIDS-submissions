@@ -15,7 +15,7 @@ On cloud:
 
 Within the saver the following commands were run:
 - `Python saver.py`
-- Control c to exit out of the saver.py script
+- Control c to exit out of the saver.py script when we have finished collecting the data we want
 
 On the cloud outside the docker containers, sync the mounted directory with object storage:  
 `s3cmd sync /mnt/mybucket/ s3://lab02-cos-standard-neha/hw03/`

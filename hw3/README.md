@@ -1,3 +1,7 @@
+Neha Kumar
+Monday 6:30pm PT section
+Summer 2020
+
 Homework Questions:
 
 - Link to binarized face images on the cloud: https://lab02-cos-standard-neha.s3.us-east.cloud-object-storage.appdomain.cloud

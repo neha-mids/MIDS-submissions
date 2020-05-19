@@ -1,6 +1,6 @@
 Homework Questions:
 
-- Link to binarized face images on the cloud: https://lab02-cos-standard-neha.s3.us-east.cloud-object-storage.appdomain.cloud
+- Link to binarized face images on the cloud: https://lab02-cos-standard-neha.s3.us-east.cloud-object-storage.appdomain.cloud. Example of face image: https://lab02-cos-standard-neha.s3.us-east.cloud-object-storage.appdomain.cloud/hw03/hw03/face_1589863596700133
 - The topic for the local mqtt was named imagelocal while the topic for the cloud mqtt was called imageremote. This describes what is being transmitted (images) and where (locally or to the remote)  were both named "testtopic."
 - QoS of 0 (best attempt) was used as this was a streaming application. If one message was dropped, we want to continue with streaming subsquent messages without interruption
 

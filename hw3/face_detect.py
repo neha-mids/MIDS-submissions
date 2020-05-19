@@ -1,4 +1,4 @@
-import numpy as np
+iimport numpy as np
 import cv2 as cv
 import paho.mqtt.client as mqtt
 import time
@@ -28,9 +28,10 @@ while(True):
     gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
     # face detection and other logic goes here
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
-    for face in faces:
+    for (x,t,w,h) in faces:
 	# your logic goes here; for instance
-	# cut out face from the frame.. 
+	face = gray[y:y+h, x:x+w]
+	print(gray.shape, x, y, h, w)
 	rc,png = cv.imencode('.png', face)
         msg = png.tobytes()
 	client.publish("imagelocal", msg, qos = 0, retain = False)

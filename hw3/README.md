@@ -1,3 +1,7 @@
+Neha Kumar
+Monday 6:30pm PT section
+Summer 2020
+
 Homework Questions:
 
 - Link to binarized face images on the cloud: https://lab02-cos-standard-neha.s3.us-east.cloud-object-storage.appdomain.cloud. Example of face image: https://lab02-cos-standard-neha.s3.us-east.cloud-object-storage.appdomain.cloud/hw03/hw03/face_1589863596700133
@@ -15,7 +19,7 @@ On cloud:
 
 Within the saver the following commands were run:
 - `Python saver.py`
-- Control c to exit out of the saver.py script
+- Control c to exit out of the saver.py script when we have finished collecting the data we want
 
 On the cloud outside the docker containers, sync the mounted directory with object storage:  
 `s3cmd sync /mnt/mybucket/ s3://lab02-cos-standard-neha/hw03/`

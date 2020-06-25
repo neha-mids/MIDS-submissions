@@ -9,8 +9,11 @@ A:
 A: 
 4. Were your GPUs fully utilized?  
 A: Yes, according to the nvidia-smi output, both GPUs on both VMs (4 total) were 100% utilized
+![vm1](Images/gpu_util_vm1.png)
+![vm2](Images/gpu_util_vm2.png)
 5. Did you monitor network traffic (hint: apt install nmon)? Was network the bottleneck?  
 A: The network speed is about 200k KB/s. The network is able to pass through up to 1 gbps. Therefore, the network is not being fully utilized so it is not the bottleneck
+![nmon](Images/nmon.png)
 6. Take a look at the plot of the learning rate and then check the config file. Can you explan this setting?  
 A: 
 7. How big was your training set (mb)? How many training lines did it contain?  

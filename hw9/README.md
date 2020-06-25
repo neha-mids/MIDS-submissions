@@ -2,11 +2,11 @@ Neha Kumar
 MIDS W251 Section 1
 
 1. How long does it take to complete the training run?  
-A: The training run takes 24 hours to complete, with about 1.6 seconds per step
+A: The training run takes almost a full 24 hours to complete, with 1.692s per step and 36872.646 objects per second. The first step started at 24/Jun/2020 15:08:57 UTC and the job completed at 25/Jun/2020 14:36:19 UTC 
 2. Do you think your model is fully trained? How can you tell?  
-A: 
+A: I think the model was fully trained as the loss on the validation set was flattening out and the Eval BLEU score was also beginning to plateau.
 3. Were you overfitting?  
-A: 
+A: No I do not think we overfit the model because the loss on the training and the validation datasets are roughly the same. If the training loss were much lower than the validation, that would suggest overfitting (but this is not the case).
 4. Were your GPUs fully utilized?  
 A: Yes, according to the nvidia-smi output, both GPUs on both VMs (4 total) were 100% utilized
 ![vm1](Images/gpu_util_vm1.png)
@@ -19,9 +19,9 @@ A: The learning rate goes up linearly up to the 8000th step (this is the warm-up
 7. How big was your training set (mb)? How many training lines did it contain?  
 A: The training set is 1256 MB, 9049736 total lines (4524868 lines in each language)
 8. What are the files that a TF checkpoint is comprised of?  
-A: 
+A: The files that make up a checkpoint are a data-00000-of-00001 file, a index file, and a meta file.
 9. How big is your resulting model checkpoint (mb)?  
-A:
+A: The data-00000-of-00001 file is the largest (813M), the meta file is 15 MB and the index file is 1 MB. In total the checkpoint is 829 MB.
 10. Remember the definition of a "step". How long did an average step take?  
 A: On average, each step took about 1.6 seconds
 11. How does that correlate with the observed network utilization between nodes?  

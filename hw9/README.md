@@ -1,7 +1,7 @@
 Neha Kumar  
 MIDS W251 Section 1
 
-TensorFlow Screenshots
+TensorFlow Screenshots   
 ![eval loss](Images/eval_loss.png)
 ![eval bleu](Images/eval_bleu.png)
 
@@ -32,4 +32,4 @@ A: The data-00000-of-00001 file is the largest (813M), the meta file is 15 MB an
 10. Remember the definition of a "step". How long did an average step take?  
 A: On average, each step took about 1.6 seconds
 11. How does that correlate with the observed network utilization between nodes?  
-A: 
+A: Each step, we are transmitting at a rate of 200,000 kb/sec for 1.692 seconds. This amounts to 338400 KB or 338MB. This is on a similar scale as the size of the model (the weights need to be centralized and moved to the first VM in order to save a checkpoint. The value here is about half the size of the model size).

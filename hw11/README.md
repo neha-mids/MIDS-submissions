@@ -1,15 +1,15 @@
 Neha Kumar MIDS W251  
 Homework 11  
 
-Training Videos:  
+Training Videos (for best run):  
 
-[Episode 0 Video](http://s3.us-east.cloud-object-storage.appdomain.cloud/hw11/episode0.mp4)  
+First Run: [Episode 0 Video](http://s3.us-east.cloud-object-storage.appdomain.cloud/hw11/episode0.mp4)  
 
-[Episode 200 Video](http://s3.us-east.cloud-object-storage.appdomain.cloud/hw11/episode200.mp4)  
+Run towards the middle of training: [Episode 200 Video](http://s3.us-east.cloud-object-storage.appdomain.cloud/hw11/episode200.mp4)  
   
-[Episode 380 Video](http://s3.us-east.cloud-object-storage.appdomain.cloud/hw11/episode380.mp4) 
+Run towards the end of training: [Episode 380 Video](http://s3.us-east.cloud-object-storage.appdomain.cloud/hw11/episode380.mp4) 
 
-Testing Videos:  
+Testing Videos (for best run):  
  
 [Testing Run 30 Video](http://s3.us-east.cloud-object-storage.appdomain.cloud/hw11/testing_run30.mp4)  
   

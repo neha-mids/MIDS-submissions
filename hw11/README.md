@@ -1,7 +1,7 @@
 Neha Kumar MIDS W251  
 Homework 11  
 
-Training Videos (for best run):  
+**Training Videos (for best run):**  
 
 First Run: [Episode 0 Video](http://s3.us-east.cloud-object-storage.appdomain.cloud/hw11/episode0.mp4)  
 
@@ -9,13 +9,13 @@ Run towards the middle of training: [Episode 200 Video](http://s3.us-east.cloud-
   
 Run towards the end of training: [Episode 380 Video](http://s3.us-east.cloud-object-storage.appdomain.cloud/hw11/episode380.mp4) 
 
-Testing Videos (for best run):  
+**Testing Videos (for best run):** 
  
 [Testing Run 30 Video](http://s3.us-east.cloud-object-storage.appdomain.cloud/hw11/testing_run30.mp4)  
   
 [Testing Run 80 Video](http://s3.us-east.cloud-object-storage.appdomain.cloud/hw11/testing_run80.mp4)  
 
-Responses to Questions:
+**Responses to Questions:**
 1. I altered the number of nodes of the first and second layers as well as the epsilon_decay parameter. Increasing the size of the layers was an obvious choice to improve the model as it increases the ability of the model to produce a solution to an increasingly complex problem.
 2. I increased the side of the first_layer from 16 to 32 to 64. I increased the density of the second layer from 8 to 16 to 32. I decreased the epsilon_decay to 0.95 and increased it to 0.99
 3. I also played around with the number of epochs, switching it between 1 and 2. Increasing the epochs led to a longer time for training to complete, but did not necessarily translate to an improvement in the reward score among the testing samples.
